@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["ES2020"],
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+    "node_modules",
+    "src/models/enhanced",
+    "src/models/FoodSafety.ts",
+    "src/models/Inventory.ts",
+    "src/models/Invoice.ts",
+    "src/models/KitchenTicket.ts",
+    "src/models/Outlet.ts",
+    "src/models/Shift.ts",
+    "src/models/Supplier.ts",
+    "src/models/Table.ts",
+    "src/models/Tenant.ts",
+    "src/seeds/seedData.ts"
+  ]
+}
